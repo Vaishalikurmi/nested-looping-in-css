@@ -1,0 +1,20 @@
+.parent p {
+    color: white;
+}
+
+div>p {
+    background-color: red;
+}
+
+h2+div {
+    font-size: large;
+}
+
+h2~div {
+    font-style: italic;
+}
+
+h2,
+div {
+    border-style: solid;
+}
