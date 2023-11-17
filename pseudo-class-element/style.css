@@ -26,20 +26,25 @@ button:active {
     background-color: pink;
 }
 
-.parent p:nth-child(2) {
+
+/* .parent p:nth-child(2) {
     color: purple;
-}
+} */
 
 input:read-only {
     background-color: red;
 }
 
  :root {
-    background-color: aqua;
+    background-color: none;
 }
 
 .parent p:first-child::first-letter {
     color: red;
+}
+
+.parent :nth-child(2)::first-line {
+    background-color: chocolate;
 }
 
 h3::after {
