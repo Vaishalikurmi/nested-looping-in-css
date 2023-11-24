@@ -6,6 +6,6 @@ pre {
     margin-bottom: 1px;
     padding-right: 5px;
     border: 5px solid green;
-    border-style: inset;
+    border-style: outset;
     border-bottom-style: offset;
 }
