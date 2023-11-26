@@ -1,3 +1,19 @@
 .container p[class] {
     background-color: gray;
 }
+
+.container p[class~="para"] {
+    background-color: antiquewhite;
+}
+
+.container p[class|="content"] {
+    background-color: aqua;
+}
+
+.container p[class$="bottom"] {
+    background-color: blue;
+}
+
+.container p[class*="con"] {
+    font-size: large;
+}
